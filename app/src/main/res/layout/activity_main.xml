@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/start_service"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Start Service"/>
+
+    <Button
+        android:id="@+id/stop_service"
+        android:layout_below="@+id/start_service"
+        android:layout_toLeftOf="@+id/start_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="stop service"/>
+
+    <Button
+        android:id="@+id/bing_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/start_service"
+        android:layout_below="@+id/start_service"
+        android:textAllCaps="false"
+        android:text="Bind Service"/>
+
+    <Button
+        android:id="@+id/unbind_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/start_service"
+        android:textAllCaps="false"
+        android:text="Unbind Service"/>
+
+
+</RelativeLayout>
